@@ -1,0 +1,14 @@
+// ────────────── Base Configuration ──────────────
+// The main wiki website can be found here: https://niri-wm.github.io/niri/
+
+include "modules/animations.kdl"
+include "modules/autostart.kdl"
+include "modules/inputs.kdl"
+include "modules/keybinds.kdl"
+include "modules/layout.kdl"
+include "modules/misc.kdl"
+include "modules/outputs.kdl"
+include "modules/windows.kdl"
+
+// DMS Include Configs
+include "dms/cursor.kdl"

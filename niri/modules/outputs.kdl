@@ -1,0 +1,8 @@
+// ────────────── Output Configuration ──────────────
+// Use wlr-randr OR niri msg outputs
+
+output "DP-1" {
+    mode "3440x1440@165"
+    scale 1.5
+    variable-refresh-rate on-demand=true
+}

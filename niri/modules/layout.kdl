@@ -1,0 +1,33 @@
+// ────────────── Layout Configuration ──────────────
+
+    layout {
+        gaps 16
+    	center-focused-column "never"
+
+    	background-color "transparent"
+
+    	tab-indicator {
+    		on
+    		hide-when-single-tab
+    	}
+
+    	preset-column-widths {
+    		proportion 0.25
+    		proportion 0.33333
+    		proportion 0.5
+    		proportion 0.66667
+    	}
+
+    	default-column-width {
+    		proportion 0.5
+    	}
+
+    	// focus-ring {
+    	// 	width 4
+    	// 	active-color "acacac"
+    	// 	urgent-color "cc4444"
+    	// }
+
+    	struts {
+    	}
+    }

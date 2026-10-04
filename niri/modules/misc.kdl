@@ -1,0 +1,39 @@
+// ────────────── Misc Configuration ──────────────
+// These don't fit elsewhere, but are needed
+
+    prefer-no-csd
+
+    // For when you get to setting that up!
+    // screenshot-path "~/pictures/screenshots/unordered/%Y-%m-%d-%H-%M-%S.png"
+    screenshot-path null
+
+    environment {
+        ELECTRON_OZONE_PLATFORM_HINT "auto"
+        QT_QPA_PLATFORM "wayland"
+        QT_QPA_PLATFORMTHEME "gtk3"
+        QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
+        XDG_CURRENT_DESKTOP "niri"
+        XDG_SESSION_TYPE "wayland"
+    }
+
+    cursor {
+        xcursor-theme "capitaine-cursors"
+        xcursor-size 24
+    }
+
+    debug {
+        // Allows notification actions and window activation from Noctalia.
+        honor-xdg-activation-with-invalid-serial
+    }
+
+    hotkey-overlay {
+       skip-at-startup
+    }
+
+    // Gestures are specific interactions; this disables the hot-corners gesture
+    // specifically, which opens up an overview upon reaching a corner.
+    gestures {
+	    hot-corners {
+		    off
+	    }
+    }
