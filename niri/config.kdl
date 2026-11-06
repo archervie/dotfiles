@@ -9,6 +9,3 @@ include "modules/layout.kdl"
 include "modules/misc.kdl"
 include "modules/outputs.kdl"
 include "modules/windows.kdl"
-
-// DMS Include Configs
-include "dms/cursor.kdl"

@@ -5,12 +5,12 @@
         Mod+Shift+Escape                { show-hotkey-overlay; }
 
         // --------- Applications ---------
-        Mod+Return                      hotkey-overlay-title="Open Terminal: Ghostty" { spawn "alacritty"; }
+        Mod+Return                      hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
         Mod+D                           hotkey-overlay-title="Open App Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
-        Mod+E                           hotkey-overlay-title="Open File Manager: CliFM" { spawn "alacritty" "-e" "clifm"; }
+        Mod+E                           hotkey-overlay-title="Open File Manager: Nautilus" { spawn "nautilus"; }
         Mod+Z                           hotkey-overlay-title="Open Editor: Zed" { spawn "zeditor"; }
-        Mod+N                           hotkey-overlay-title="Open Scratchpad: Micro" { spawn "alacritty" "-e" "micro" "~/documents/scratchpad.md"; }
-        Mod+B                           hotkey-overlay-title="Open CPU Manager: btop" { spawn "alacritty" "-e" "btop"; }
+        Mod+N                           hotkey-overlay-title="Open Scratchpad: Micro" { spawn "ghostty" "-e" "micro" "~/documents/scratchpad.md"; }
+        Mod+B                           hotkey-overlay-title="Open CPU Manager: btop" { spawn "ghostty" "-e" "btop"; }
         Mod+C                           hotkey-overlay-title="Open Clipboard" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
         // --------- Media Control ---------
         XF86AudioRaiseVolume            allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }
